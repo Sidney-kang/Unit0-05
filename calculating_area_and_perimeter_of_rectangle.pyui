@@ -1,0 +1,87 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "What is the area and perimeter of a rectangle with the length of 5 cm and width of 3 cm?",
+          "font_name" : "<System>",
+          "name" : "question_about_perimeter_and_area_of_rectangle_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E0B7D6C1-EEDB-4377-BBDD-B9D0E7504A5F"
+        },
+        "frame" : "{{44, 75}, {410, 97}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "area_of_rectangle_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0A845EB6-5AFE-4DE6-B676-B6C1D9C5537A"
+        },
+        "frame" : "{{34, 280}, {210, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "perimeter_of_rectangle_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0C5DE6BB-8439-4CF9-940A-26753F07609F"
+        },
+        "frame" : "{{275, 280}, {205, 33}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "8CD7ACBA-6FE2-448E-8FD3-E59E583F9440",
+          "name" : "answer_button",
+          "action" : "perimeter_and_area_of_rectangle_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "answer"
+        },
+        "frame" : "{{205, 230}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
